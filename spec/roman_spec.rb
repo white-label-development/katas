@@ -14,6 +14,14 @@ describe 'roman' do
  	end
 
   	it 'displays 8 as VIII' do
- 		expect(roman_numeral(6)).to eq 'VIII'
+ 		expect(roman_numeral(8)).to eq 'VIII'
+ 	end	
+
+ 	it 'displays 9 as IX' do
+ 		expect(roman_numeral(9)).to eq 'IX'
+ 	end	
+
+ 	it 'displays 1949 as MCMXLIX' do
+ 		expect(roman_numeral(1949)).to eq 'MCMXLIX'
  	end	
 end
